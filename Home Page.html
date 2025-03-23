@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HireHub</title>
+    <link rel="stylesheet" href="Home Page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+</head>
+
+<!-- nevigation bar box-->
+<body class="a">
+    <div class="header">
+        <div class="main-navigation">
+            <a class="brand-name" href="Home Page.html">
+                <span class="logo-part-1">Hire</span><span class="logo-part-2">Hub</span>
+            </a>
+            <div class="nav-menu">
+                <div class="nav-menu-item active">
+                    <a href="Home Page.html">Home</a>
+                </div>
+                <div class="nav-menu-item">
+                    <a href="#">Internships</a>
+                </div>
+                <div class="nav-menu-item">
+                    <a href="#">Freshers Job</a>
+                </div>
+                <div class="nav-menu-item">
+                    <a href="#">Course</a>
+                </div>
+            </div>
+            <div class="auth-buttons">
+                <a class="auth-btn login-btn" href="Login.html">Login</a>
+                <a class="auth-btn login-btn" href="SignUp.html">Sign Up</a>
+                <div class="menu-toggle" id="menuToggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                </div>
+            </div>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <div class="dropdown-category">Job Fields</div>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                    <span>Software Development</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+                    <span>Data Science & AI</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    <span>Healthcare & Medical</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    <span>Banking & Finance</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                    <span>Engineering</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    <span>Marketing & Digital</span>
+                </a>
+                
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-category">Job Locations</div>
+                
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Remote Jobs</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <span>On-site Opportunities</span>
+                </a>
+                
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-category">Job Tools</div>
+                
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><path d="M12 12h7"></path><path d="M19 12v7"></path><path d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z"></path></svg>
+                    <span>Job Alerts</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M16 13H8"></path><path d="M16 17H8"></path><path d="M10 9H8"></path></svg>
+                    <span>Resume Builder</span>
+                </a>
+                
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-category">Employer</div>
+                
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    <span>Employer Portal</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><path d="M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6"></path><path d="M12 14H8"></path><path d="M8 10h8"></path><path d="M15 19l3 3 5-5"></path></svg>
+                    <span>Post a Job</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- front page heading style inside header div -->
+        <div class="hero-content">
+        <p class="heading1">Find your dream job now</p>
+        <p class="sub-heading1">2 lakhs+ jobs for you to explore</p>
+        <div class="input">
+                <div class="toggle-container">
+                    <a href="#" class="toggle-btn active">FULL-TIME</a>
+                    <a href="#" class="toggle-btn" onclick="internship()">INTERNSHIP</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Job Categories Section -->
+    <section class="featured-categories">
+        <div class="section-header">
+            <h2 class="featured-heading"><span class="heading-dark">Popular</span> <span class="heading-purple small-text">Course</span> <span class="heading-dark">Categories</span></h2>
+            <p>Boost your skills with our industry-leading courses</p>
+        </div>
+        <div class="job-boxes-container">
+        <div class="job-boxes">
+                <div class="job-box">
+                    <div class="job-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="category-icon"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Master HTML, CSS, JavaScript, and modern frameworks like React, Angular, and Vue.js for building responsive websites.</p>
+                    <div class="job-details">
+                        <div class="job-stat">
+                            <strong>25+</strong> courses
+                        </div>
+                        <div class="job-stat">
+                            <strong>4.8</strong> avg. rating
+                        </div>
+                    </div>
+                    <a href="#" class="job-cta">View Courses</a>
+                </div>
+                <div class="job-box">
+                    <div class="job-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="category-icon"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+                    </div>
+                    <h3>Data Science</h3>
+                    <p>Learn Python, machine learning, statistical analysis, and visualization tools to extract insights from complex datasets.</p>
+                    <div class="job-details">
+                        <div class="job-stat">
+                            <strong>18+</strong> courses
+                        </div>
+                        <div class="job-stat">
+                            <strong>4.7</strong> avg. rating
+                        </div>
+                    </div>
+                    <a href="#" class="job-cta">View Courses</a>
+                </div>
+                <div class="job-box">
+                    <div class="job-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="category-icon"><path d="M12 12v.01M19.071 4.929c-1.948-1.95-5.055-1.95-7.004 0-1.95 1.948-1.95 5.055 0 7.004 1.948 1.95 5.055 1.95 7.004 0 1.95-1.948 1.95-5.055 0-7.004z M7.5 19.5C2 14-2 7 3.5 3.5c3.044-2.466 5.208-1.467 6.974 0 3.5 3.5-.5 10.5-6 16z"></path></svg>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Master user interface principles, wireframing, prototyping, and design systems using industry-standard tools.</p>
+                    <div class="job-details">
+                        <div class="job-stat">
+                            <strong>20+</strong> courses
+                        </div>
+                        <div class="job-stat">
+                            <strong>4.9</strong> avg. rating
+                        </div>
+                    </div>
+                    <a href="#" class="job-cta">View Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="section-header">
+            <h2>How <span class="hirehub-blue">HireHub</span> Works</h2>
+            <p>Your journey to the perfect job in three simple steps</p>
+        </div>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Create Your Profile</h3>
+                    <p>Build your professional profile highlighting your skills and experience</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Explore Opportunities</h3>
+                    <p>Browse through thousands of curated job listings matching your profile</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Apply & Connect</h3>
+                    <p>Apply with a single click and connect directly with employers</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta-container">
+            <a href="SignUp.html" class="primary-cta">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- Modern Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-company">
+                <div class="footer-logo">
+                    <span class="logo-part-1">Hire</span><span class="logo-part-2">Hub</span>
+                </div>
+                <p class="footer-description">
+                    SIDHARTH, BIG BRO, I LOVE YOU.<br>
+                     NEVER LEAVE MY SIDE.</br>
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon instagram" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" class="social-icon twitter" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                    </a>
+                    <a href="#" class="social-icon facebook" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="#" class="social-icon linkedin" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Unitech Signature II<br>Gurgaon, India</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>HireHub2025@gmail.com</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>+91 92506079999</span>
+                        </li>
+                    </ul>
+        </div>
+    </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2025 HireHub. All rights reserved.</p>
+            </div>
+            <div class="footer-nav">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="HomePage.js"></script>
+</body>
+</html>
