@@ -1,0 +1,134 @@
+body.a{
+    background-color:#f8f9fa;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+    font-family:"Poppins", sans-serif;
+    overflow:hidden;
+}
+div.main-container{
+    width:100%;
+    max-width:1000px;
+    height:650px;
+    display:flex;
+    background-color:#fff;
+    border-radius:16px;
+    box-shadow:0 8px 24px rgba(0, 0, 0, 0.05);
+    overflow:hidden; 
+}
+div.leftside-container{
+    width:40%;
+    background-color:#9c27b0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+    position:relative;
+}
+div.leftside-content {
+    color:white;
+    max-width:85%;
+    position:relative;
+    z-index:2;
+}
+p.leftside-heading{
+    font-size:32px;
+    font-weight:500;
+}
+p.leftside-subheading{
+    font-size:16px;
+}
+
+div.rightside-container{
+    width:60%;
+    height:100%;
+    padding:40px;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+}
+p.rightside-heading{
+    color:#9c27b0;
+    font-size:25px;
+    font-weight:700;
+    margin-bottom:0;
+}
+p.rightside-subheading{
+    color:#666;
+    font-size:15px;
+    margin-bottom:20px;
+}
+label.a{
+    display:block;
+    color:#333;
+    font-size:15px;
+    font-weight:500;
+    margin-bottom:5px;
+}
+input.a{
+    width:100%;
+    padding:12px 14px;
+    border:1px solid #e0e0e0;
+    border-radius:8px;
+    font-size:15px;
+    background:#fff;
+    margin-bottom:15px;
+}
+p.password-hint{
+    font-size:20px;
+    color:#888;
+    margin-top:5px;
+}
+button.signup-button{
+    width:100%;
+    padding:12px 14px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(to right,#9c27b0, #e040fb);
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.3s ease;
+    margin-bottom:0;
+    margin-top:10px;
+}
+button.signup-button:hover{
+    background-color:#e5d4ec;
+    transform:translateY(-2px);
+}
+div.google-area{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+p.or{
+    font-size:15px;
+    color:#666;
+}
+button.google-button{
+    width:100%;
+    padding:12px 14px;
+    border:none;
+    border-radius:8px;
+    background:#4285f4;
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.3s ease;
+    
+}
+button.google-button:hover{
+    background:#357ae8;
+    transform: translateY(-2px);
+}
+p.signup-footer{
+    font-size:15px;
+    color:#666;
+    text-align:center;
+    margin-top:20px;
+}
