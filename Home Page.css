@@ -173,14 +173,19 @@ div.job-boxes-container {
     display:flex;
     justify-content:center;
     margin-top:30px;
+    border-radius: 20px;
 }
 div.job-boxes {
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    justify-content:center;
-    gap:25px;
-    max-width:1000px;
-    width:100%;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #1A0046; /* Deep Purple Background */
+    margin: 0;
+    border-radius: 17px;
 }
 div.job-box {
     width:320px;
@@ -190,7 +195,7 @@ div.job-box {
     padding:30px;
     border-radius:20px;
     position:relative;
-    background:white;
+    background: rgba(255, 255, 255, 0.1);
     border:1px solid rgba(255, 255, 255, 0.1);
     display:flex;
     flex-direction:column;
@@ -201,17 +206,17 @@ div.job-box:hover{
     transform:scale(1.05);
 }
 p.job-heading{
-    font-family:"Raleway", serif;
+    font-family:"Open Sans", serif;
     font-size:30px;
-    color:#2b0a4c;
+    color:#e6f0e7;
     margin:0;
     font-weight:500;
     text-align:center;
 }
 p.job-sub-heading{
-    font-family:"Raleway", serif;
+    font-family:"Lora", serif;
     font-size:20px;
-    color:#2b0a4c;
+    color:white;
     margin:0;
     font-weight:400;
     text-align:center;
