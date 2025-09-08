@@ -172,4 +172,5 @@ getStudents()
 getStudents('Computer Science')
   .then(data => console.log('CS students:', data))
   .catch(error => console.error('Fetch failed:', error));
+
 ``` 
